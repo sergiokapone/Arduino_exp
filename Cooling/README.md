@@ -6,4 +6,4 @@
 
 ## Графік
 
-<iframe width="100%" height="800" src="./doc.pdf">
+<embed src="./doc.pdf" type="application/pdf">
