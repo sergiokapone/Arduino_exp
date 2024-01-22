@@ -9,7 +9,7 @@
 
 1. [Arduino IDE 2](https://www.arduino.cc/en/donate/)
 2. Драйвера [CH340](https://arduinokit.com.ua/ua/a462945-ustanovka-drajvera-ch340.html) для плат Arduino Uno, Nano, Mega 2560
-   - Без цього драйверу `COM3` порт для Arduino Uno не визначався. В диспечері пристроїв був невпізнаний пристрій `USB Serial`.
+   - Без цього драйверу `COM3` порт для Arduino Uno для китайських плат не визначався. В диспечері пристроїв був невпізнаний пристрій `USB Serial`.
 3. Бібліотека для роботи з термопарою [MAX6675](https://github.com/GyverLibs/GyverMAX6675)
 
 Приклад коду для зчитування даних (з посилання)
