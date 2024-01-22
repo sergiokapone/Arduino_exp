@@ -2,10 +2,7 @@
 
 ## Зовнішній вигляд експериментальної установки
 
-[![asciicast](https://youtu.be/4gmJxQD29mA)](https://youtu.be/4gmJxQD29mA)
-
-
-![cooling_experiment](./cooling.png)
+[![cooling_experiment](./cooling.png)](https://youtu.be/4gmJxQD29mA)
 
 ## Графік
 
