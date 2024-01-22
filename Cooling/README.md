@@ -6,4 +6,4 @@
 
 ## Графік
 
-<embed src="./doc.pdf" type="application/pdf">
+![cooling_experiment_plt](./plt.png)
