@@ -98,15 +98,15 @@
                 C = 23;
                 B = 0.1;
                 a = 0.045;
-                b = 0.005;
-                f(x) = (A - C) * exp(-a * x) + C;
-                g(x) = B * exp(-b * x);
-                h(x) = f(x) + g(x);
+                alpha = 1;
+                f(x) = (A - C) * exp(-a * x ** alpha) + C;
+%                g(x) = B * exp(-b * x);
+%                h(x) = f(x) + g(x);
 %                fit h(x) 'data.txt' u ($0 * 5 / 60):1 via A,C,B,a,b;
-                fit f(x) 'data.txt' u ($0 * 5 / 60):1 via A,C,a;
+                fit f(x) 'data.txt' u ($0 * 5 / 60):1 via A,C,a,alpha;
 %                plot [x=0:45] g(x);
                 plot [x=0:45] f(x);
-                plot [x=0:45] h(x);
+%                plot [x=0:45] h(x);
         };
 
 %    \pgfmathsetmacro\A{A}
